@@ -208,6 +208,11 @@ public class AddressBook {
 
     public static void main(String[] args) {
         showWelcomeMessage();
+        int x = 3;
+        int y = 2;
+        x = x+y;
+        y = y*x;
+        System.out.println(x +  "" + y);
         processProgramArgs(args);
         loadDataFromStorage();
         while (true) {
